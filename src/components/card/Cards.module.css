@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
   margin: 3rem auto;
 }
 
@@ -15,4 +15,47 @@
 .box img{
   width: 80% !important;
   margin: 0 auto;
+}
+
+.box h1{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.box h2{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600.9px) {
+  .body{
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .box{
+    width: 100%;
+  }
+
+  .box h1{
+    font-size: 18px;
+  }
+  .box h2{
+    font-size: 16px;
+  }
+}
+
+@media (min-width:601px) and (max-width: 1000px) {
+  .body{
+    width: 90%;
+  }
+  .box{
+    width: 45%;
+  }
+
+  .box h1{
+    font-size: 20px;
+  }
+  .box h2{
+    font-size: 18px;
+  }
 }
