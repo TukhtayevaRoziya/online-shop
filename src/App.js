@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Cards from './components/card/Cards';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{marginTop:'3rem'}}>E'lonlar</h1>
+      <Cards/>
     </div>
   );
 }
