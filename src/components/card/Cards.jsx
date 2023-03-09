@@ -2,7 +2,6 @@ import React from 'react'
 import { Card } from 'antd';
 import styles from './Cards.module.css'
 
-const { Meta } = Card;
 
 const Cards = () => {
   const data = [
