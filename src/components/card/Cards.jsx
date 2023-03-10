@@ -35,7 +35,7 @@ const Cards = () => {
       <h2><strong>Narxi:</strong>  {d.price}UZ </h2>
       <img alt="example" src={'http://localhost:3001/images/' + d.image} />
       <h4>Murojat uchun:</h4>
-      <h3>📞 <a href={`tel:+998${d.phone}`}>+998 {d.tel}</a> </h3>
+      <h3>📞 <a href={`tel:+998${d.phone}`}>+998 {d.phone}</a> </h3>
     </div>
   </Card>)
   return (
