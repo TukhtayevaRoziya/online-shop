@@ -1,0 +1,130 @@
+.numberSec {
+  height: auto;
+  padding: 0 200px 0;
+  width: 100%;
+  display: flex;
+  margin: 1rem auto 0;
+  /* background-image: url(../../assets/about_us/count.webp); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .numberSec::before {
+  opacity: 0.6 !important;
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  content: " " !important;
+  border-radius: inherit;
+} */
+
+.numberSec__title {
+  text-align: center;
+  width: 60%;
+  font-weight: 400;
+  margin: 0 auto 3rem;
+  font-size: 45px;
+  color: #fff;
+}
+
+.numberSec__block {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.counter_body {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter_block {
+  font-family: Gilroy, sans-serif;
+  padding: 0 5%;
+}
+
+.counter_block span {
+  width: 80%;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: background-color 0.4s, color 0.4s;
+  display: block;
+  line-height: 1;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.counter_block h1{
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 0) and (max-width: 599.9px) {
+  .numberSec {
+    padding: 0;
+    margin: 2.5rem 0 0;
+    height: auto;
+  }
+
+  .numberSec__title {
+    font-size: 20px;
+    margin-bottom: 0;
+    width: 80%;
+  }
+
+  .counter_body {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .counter_block span {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .counter_block {
+    margin-bottom: 2rem;
+    border-right: none;
+    text-align: center;
+  }
+
+  .counter_block h1 {
+    font-size: 20px;
+  }
+
+  .counter_body .counter_block:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1159.9px) {
+  .numberSec {
+    padding: 0;
+    margin: 2.5rem 0 0;
+    height: auto;
+  }
+
+  .numberSec__title {
+    width: 80%;
+    font-size: 30px;
+  }
+
+  .counter_block span {
+    font-size: 2rem;
+  }
+
+  .counter_block {
+    padding: 0 3.5%;
+  }
+
+  .counter_block h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}

@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #161619;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Header_container__USf2y :checked ~ .Header_links__z-nyd {
+  left: 0;
+}
+.Header_container__USf2y .icon_burger .Header_line__QaRZ+ {
+  transition: 0.3s cubic-bezier(0.97, 0.02, 0.44, 0.99);
+}
+.Header_container__USf2y :checked ~ .icon_burger .Header_line__QaRZ+:nth-child(1) {
+  transform: translateY(9px) rotate(50deg);
+}
+.Header_container__USf2y :checked ~ .icon_burger .Header_line__QaRZ+:nth-child(2) {
+  transform: translateX(10px);
+  opacity: 0;
+}
+.Header_container__USf2y :checked ~ .icon_burger .Header_line__QaRZ+:nth-child(3) {
+  transform: translateY(-9px) rotate(-50deg);
 }

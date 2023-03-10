@@ -1,0 +1,27 @@
+.body{
+  background-color: #161619;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.body h1{
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+.user_options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.option {
+  padding: 1rem;
+  color: #ffc222;
+  cursor: pointer;
+}
+
+.option svg{
+  font-size: 21px;
+}

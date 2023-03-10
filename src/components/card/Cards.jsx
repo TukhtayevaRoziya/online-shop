@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { Card } from 'antd';
-import styles from './Cards.module.css'
+import { Card, Image } from 'antd';
 import axios from 'axios';
 
+import styles from './Cards.module.css'
 
 const Cards = () => {
   const [state, setState] = useState([])
@@ -27,19 +27,19 @@ const Cards = () => {
   }
   const dataMap = state.map(d=>  <Card key={d._id} className={styles.box}
     hoverable
+    cover={<Image alt="example" src={'http://localhost:3001/images/' + d.image} />}
   >
      <div>
 
       <h1>{d.title}</h1>
       <h5>(140x185x140)</h5>
       <h2><strong>Narxi:</strong>  {d.price}UZ </h2>
-      <img alt="example" src={'http://localhost:3001/images/' + d.image} />
-      <h4>Murojat uchun:</h4>
-      <h3>📞 <a href={`tel:+998${d.phone}`}>+998 {d.phone}</a> </h3>
+      
+      <h4>Tel: <a href={`tel:+998${d.phone}`}>📞 +998 {d.phone}</a></h4>
     </div>
   </Card>)
   return (
-    <div className={styles.body}>
+    <div className={styles.body} id='adc'>
       {dataMap}
     </div>
   )

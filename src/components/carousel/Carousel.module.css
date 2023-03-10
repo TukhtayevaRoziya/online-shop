@@ -1,0 +1,37 @@
+.first{
+  background-image: url(https://d.searchengines.guru/20/87/black-friday-2017-cyber-monday-2017_1200x628__e5826ac8.jpg);
+}
+
+
+.body .img_wrap{
+  background-position: top center;
+  background-size: cover;
+  height: 85vh;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.second{
+  background-image: url(https://images.cdn1.stockunlimited.net/preview1300/hand-presenting-online-shopping-concept_1972615.jpg) !important;
+}
+
+.third{
+  background-image: url(https://cdn.dribbble.com/users/2583563/screenshots/6314368/gravity-shopping-bag-mockup-white-vol2_4x.jpg);
+}
+
+.img_wrap span{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.img_wrap p{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 0;
+}

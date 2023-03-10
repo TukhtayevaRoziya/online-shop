@@ -3,25 +3,25 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 85%;
-  margin: 3rem auto;
+  margin: 3rem auto 0;
 }
 
 .box {
-  width: 30%;
+  width: 32%;
   margin-bottom: 2rem;
-  padding-top: 1rem;
 }
 
 .box img {
-  width: 80% !important;
   margin: 0 auto;
-  height: 80%;
+  height: 200px !important;
+  object-fit: cover;
 }
 
 .box h1 {
   font-size: 20px;
   line-height: 26px;
-  color: rgb(48, 48, 46);
+  color: #ffc222;
+
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -32,24 +32,40 @@
 .box h2 {
   margin: 0;
   margin-bottom: 0.5rem;
-  font-size: 25px;
-  margin-top: 15px;
+  font-size: 18px;
   color: #262626;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
 }
 
 .box h2 strong {
   color: #ffc222;
+  margin: 0;
 }
+.box h4{
+  font-size: 18px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  }
+  .box h4 a{
+    color:#262626 ;
+  
+  }
 
 .box h5 {
   font-size: 18px;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
+  color: #161619;
+
 }
 
 .box h3 {
   font-size: 18px;
   margin-top: 0.5rem;
+
 }
 @media screen and (max-width: 600.9px) {
   .body {

@@ -1,0 +1,38 @@
+.body{
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 4rem auto;
+  align-items: center;
+}
+
+.body img{
+  width: 40%;
+}
+
+.body div{
+  width: 50%;
+}
+
+.body p{
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 18px;
+}
+
+@media screen and (max-width:1000px) {
+  .body{
+    flex-direction: column;
+    align-items: center;
+  }
+  .body img{
+    width: 60%;
+  }
+  .body div{
+    width: 100%;
+    margin: 3rem auto 0;
+  }
+  .body p{
+    text-align: center;
+  }
+}
