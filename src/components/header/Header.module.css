@@ -2,3 +2,7 @@
   width: 100%;
   background-color: black;
 }
+
+.main{
+  display: flex;
+}

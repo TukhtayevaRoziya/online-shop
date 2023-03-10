@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={styles.body}>
       <img src='https://api-frameworks.vercel.sh/framework-logos/other.svg' alt='' />
-      <div>
+      <div className={styles.main}>
 
       <div>
         <a href='/#about'>Biz haqimizda</a>
